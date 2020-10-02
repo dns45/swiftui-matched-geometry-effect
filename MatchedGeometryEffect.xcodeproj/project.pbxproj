@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD0CDB092527D93E00FAD1BE /* MatchedGeometryEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB082527D93E00FAD1BE /* MatchedGeometryEffectApp.swift */; };
-		AD0CDB0B2527D93E00FAD1BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB0A2527D93E00FAD1BE /* ContentView.swift */; };
+		AD0CDB0B2527D93E00FAD1BE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB0A2527D93E00FAD1BE /* Home.swift */; };
 		AD0CDB0D2527D94100FAD1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0CDB0C2527D94100FAD1BE /* Assets.xcassets */; };
 		AD0CDB102527D94100FAD1BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0CDB0F2527D94100FAD1BE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AD0CDB052527D93E00FAD1BE /* MatchedGeometryEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedGeometryEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0CDB082527D93E00FAD1BE /* MatchedGeometryEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectApp.swift; sourceTree = "<group>"; };
-		AD0CDB0A2527D93E00FAD1BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD0CDB0A2527D93E00FAD1BE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		AD0CDB0C2527D94100FAD1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0CDB0F2527D94100FAD1BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD0CDB112527D94100FAD1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				AD0CDB082527D93E00FAD1BE /* MatchedGeometryEffectApp.swift */,
-				AD0CDB0A2527D93E00FAD1BE /* ContentView.swift */,
+				AD0CDB0A2527D93E00FAD1BE /* Home.swift */,
 				AD0CDB0C2527D94100FAD1BE /* Assets.xcassets */,
 				AD0CDB112527D94100FAD1BE /* Info.plist */,
 				AD0CDB0E2527D94100FAD1BE /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0CDB0B2527D93E00FAD1BE /* ContentView.swift in Sources */,
+				AD0CDB0B2527D93E00FAD1BE /* Home.swift in Sources */,
 				AD0CDB092527D93E00FAD1BE /* MatchedGeometryEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
