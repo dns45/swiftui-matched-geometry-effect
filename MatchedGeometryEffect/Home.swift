@@ -10,8 +10,11 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         NavigationView {
-            NavigationLink("Growing circle without geometry", destination: GrowingCircleWithoutGeometry())
-                .navigationBarTitle("SwiftUI Animations 🎩")
+            VStack(spacing: 16) {
+                NavigationLink("Growing circle without geometry", destination: GrowingCircleWithoutGeometry())
+                NavigationLink("Growing circle with geometry", destination: GrowingCircleWithGeometry())
+            }
+            .navigationBarTitle("SwiftUI Animations 🎩")
         }
     }
 }
