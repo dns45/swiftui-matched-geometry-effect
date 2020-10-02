@@ -10,7 +10,7 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         NavigationView {
-            Text("TBD")
+            NavigationLink("Growing circle without geometry", destination: GrowingCircleWithoutGeometry())
                 .navigationBarTitle("SwiftUI Animations 🎩")
         }
     }
