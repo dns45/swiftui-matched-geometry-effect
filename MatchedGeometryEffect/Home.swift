@@ -13,6 +13,7 @@ struct Home: View {
             VStack(spacing: 16) {
                 NavigationLink("Growing circle without geometry", destination: GrowingCircleWithoutGeometry())
                 NavigationLink("Growing circle with geometry", destination: GrowingCircleWithGeometry())
+                NavigationLink("Circle to rectangle morphing", destination: CircleRectangleMorph())
             }
             .navigationBarTitle("SwiftUI Animations 🎩")
         }

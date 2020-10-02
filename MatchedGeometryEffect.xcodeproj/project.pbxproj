@@ -13,6 +13,7 @@
 		AD0CDB102527D94100FAD1BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0CDB0F2527D94100FAD1BE /* Preview Assets.xcassets */; };
 		AD0CDB1A2527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB192527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift */; };
 		AD0CDB202527DEA900FAD1BE /* GrowingCircleWithGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB1F2527DEA900FAD1BE /* GrowingCircleWithGeometry.swift */; };
+		AD0CDB242527E0C000FAD1BE /* CircleRectangleMorph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB232527E0C000FAD1BE /* CircleRectangleMorph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD0CDB112527D94100FAD1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0CDB192527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingCircleWithoutGeometry.swift; sourceTree = "<group>"; };
 		AD0CDB1F2527DEA900FAD1BE /* GrowingCircleWithGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingCircleWithGeometry.swift; sourceTree = "<group>"; };
+		AD0CDB232527E0C000FAD1BE /* CircleRectangleMorph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRectangleMorph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		AD0CDB1C2527DAF100FAD1BE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				AD0CDB232527E0C000FAD1BE /* CircleRectangleMorph.swift */,
 				AD0CDB1F2527DEA900FAD1BE /* GrowingCircleWithGeometry.swift */,
 				AD0CDB192527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift */,
 			);
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0CDB1A2527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift in Sources */,
+				AD0CDB242527E0C000FAD1BE /* CircleRectangleMorph.swift in Sources */,
 				AD0CDB202527DEA900FAD1BE /* GrowingCircleWithGeometry.swift in Sources */,
 				AD0CDB0B2527D93E00FAD1BE /* Home.swift in Sources */,
 				AD0CDB092527D93E00FAD1BE /* MatchedGeometryEffectApp.swift in Sources */,
