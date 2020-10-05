@@ -15,6 +15,7 @@
 		AD0CDB202527DEA900FAD1BE /* GrowingCircleWithGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB1F2527DEA900FAD1BE /* GrowingCircleWithGeometry.swift */; };
 		AD0CDB242527E0C000FAD1BE /* CircleRectangleMorph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB232527E0C000FAD1BE /* CircleRectangleMorph.swift */; };
 		AD0CDB282527E35E00FAD1BE /* CircleFullScreenMorph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CDB272527E35E00FAD1BE /* CircleFullScreenMorph.swift */; };
+		ADF9910D252BD83B003EB75F /* SwappingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9910C252BD83B003EB75F /* SwappingDots.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD0CDB1F2527DEA900FAD1BE /* GrowingCircleWithGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingCircleWithGeometry.swift; sourceTree = "<group>"; };
 		AD0CDB232527E0C000FAD1BE /* CircleRectangleMorph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRectangleMorph.swift; sourceTree = "<group>"; };
 		AD0CDB272527E35E00FAD1BE /* CircleFullScreenMorph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFullScreenMorph.swift; sourceTree = "<group>"; };
+		ADF9910C252BD83B003EB75F /* SwappingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingDots.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				AD0CDB232527E0C000FAD1BE /* CircleRectangleMorph.swift */,
 				AD0CDB1F2527DEA900FAD1BE /* GrowingCircleWithGeometry.swift */,
 				AD0CDB192527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift */,
+				ADF9910C252BD83B003EB75F /* SwappingDots.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF9910D252BD83B003EB75F /* SwappingDots.swift in Sources */,
 				AD0CDB1A2527DADC00FAD1BE /* GrowingCircleWithoutGeometry.swift in Sources */,
 				AD0CDB282527E35E00FAD1BE /* CircleFullScreenMorph.swift in Sources */,
 				AD0CDB242527E0C000FAD1BE /* CircleRectangleMorph.swift in Sources */,
