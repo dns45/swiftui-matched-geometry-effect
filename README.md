@@ -19,3 +19,7 @@ Created based on this article: <https://www.appcoda.com/matchedgeometryeffect/>
 ## ❹ Swapping dots
 
 ![Swapping Dots](README_assets/swappingDots.gif)
+
+## ❺ Swapping images
+
+![Swapping Images](README_assets/swappingImages.gif)

@@ -16,6 +16,7 @@ struct Home: View {
                 NavigationLink("Circle to rectangle morphing", destination: CircleRectangleMorph())
                 NavigationLink("Circle to full screen morphing", destination: CircleFullScreenMorph())
                 NavigationLink("Swapping dots", destination: SwappingDots())
+                NavigationLink("Swapping images", destination: SwappingImages())
             }
             .navigationBarTitle("SwiftUI Animations 🎩")
         }
