@@ -10,14 +10,14 @@ import SwiftUI
 struct CircleRectangleMorph: View {
     @Namespace private var shapeTransition
     @State private var expand = false
-    
+
     private let transitionId = "rectangle"
-    
+
     var body: some View {
         VStack {
             if expand {
                 Spacer()
-                
+
                 // Rounded Rectangle
                 RoundedRectangle(cornerRadius: 50.0)
                     .matchedGeometryEffect(id: transitionId, in: shapeTransition)
@@ -38,7 +38,7 @@ struct CircleRectangleMorph: View {
                     .onTapGesture {
                         expand.toggle()
                     }
-                
+
                 Spacer()
             }
         }

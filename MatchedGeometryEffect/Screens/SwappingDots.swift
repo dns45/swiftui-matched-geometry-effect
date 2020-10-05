@@ -10,10 +10,10 @@ import SwiftUI
 struct SwappingDots: View {
     @Namespace private var dotTransition
     @State private var swap = true
-    
+
     private let orangeCircleId = "orangeCircle"
     private let greenCircleId = "greenCircle"
-     
+
     var body: some View {
         if swap {
             // After swap
@@ -23,9 +23,9 @@ struct SwappingDots: View {
                     .fill(Color.green)
                     .frame(width: 30, height: 30)
                     .matchedGeometryEffect(id: greenCircleId, in: dotTransition)
-                
+
                 Spacer()
-                
+
                 Circle()
                     .fill(Color.orange)
                     .frame(width: 30, height: 30)
@@ -44,9 +44,9 @@ struct SwappingDots: View {
                     .fill(Color.orange)
                     .frame(width: 30, height: 30)
                     .matchedGeometryEffect(id: orangeCircleId, in: dotTransition)
-                
+
                 Spacer()
-                
+
                 Circle()
                     .fill(Color.green)
                     .frame(width: 30, height: 30)

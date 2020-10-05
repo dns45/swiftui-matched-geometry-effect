@@ -10,9 +10,9 @@ import SwiftUI
 struct CircleFullScreenMorph: View {
     @Namespace private var shapeTransition
     @State private var expand = false
-    
+
     private let transitionId = "rectangle"
-    
+
     var body: some View {
         VStack {
             if expand {
@@ -28,7 +28,7 @@ struct CircleFullScreenMorph: View {
                     }
             } else {
                 Spacer()
-                
+
                 // Circle
                 RoundedRectangle(cornerRadius: 50.0)
                     .matchedGeometryEffect(id: transitionId, in: shapeTransition)

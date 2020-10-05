@@ -10,9 +10,9 @@ import SwiftUI
 struct GrowingCircleWithGeometry: View {
     @Namespace private var shapeTransition
     @State private var expand = false
-    
+
     private let transitionId = "circle"
-    
+
     var body: some View {
         if expand {
             // Final state

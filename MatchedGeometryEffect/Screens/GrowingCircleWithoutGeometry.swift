@@ -9,11 +9,11 @@ import SwiftUI
 
 struct GrowingCircleWithoutGeometry: View {
     @State private var expand = false
-    
+
     var circleSize: CGFloat {
         return expand ? 300 : 150
     }
-    
+
     var body: some View {
         Circle()
             .fill(Color.green)
