@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwappingDots: View {
     @Namespace private var dotTransition
-    @State private var swap = true
+    @State private var swap = false
 
     private let orangeCircleId = "orangeCircle"
     private let greenCircleId = "greenCircle"
