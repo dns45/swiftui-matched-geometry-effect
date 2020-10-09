@@ -1,4 +1,4 @@
-# SwiftUI animations & matchedGeometryEffect 🎩
+# 🎩 SwiftUI animations & matchedGeometryEffect
 
 Demo app with basic SwiftUI animations using matched geometry effect.
 
